@@ -5,9 +5,11 @@
     font-family: 'Roboto Condensed';
 }
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital,wght@0,300;1,300&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100;300&display=swap');
+
+/* HEADER */
 header{
     background-color: #EEEEEE;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,4 +35,25 @@ a{
     width: 35px;
     margin: 10px;
     cursor: pointer;   
+}
+
+/* HOME */
+.home-ctn{
+    min-height: 70vh;
+    background-color: rgb(22, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.title-home{
+    font-size: 60px;
+    font-weight: 800;
+}
+.subtitle-home{
+    width: 30vw;
+    font-size: 30px;
+}
+.messi-img{
+    width: 35vw;
 }
