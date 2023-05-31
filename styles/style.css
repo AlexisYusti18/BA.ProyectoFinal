@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed';
+}
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital,wght@0,300;1,300&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100;300&display=swap');
+header{
+    background-color: #EEEEEE;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+nav{
+    display: flex;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.heart{
+    width: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+.shopcart{
+    width: 35px;
+    margin: 10px;
+    cursor: pointer;   
+}
