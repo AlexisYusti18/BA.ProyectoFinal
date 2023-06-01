@@ -2,7 +2,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed';
+    font-family: 'Open Sans', sans-serif;
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:ital,wght@0,300;1,300&family=Patrick+Hand&family=Roboto+Condensed:ital@1&family=Roboto:wght@100;300&display=swap');
 
@@ -39,8 +40,8 @@ a{
 
 /* HOME */
 .home-ctn{
-    min-height: 70vh;
-    background-color: rgb(22, 17, 17);
+    min-height: 80vh;
+    background-color: rgb(15, 12, 12);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +57,28 @@ a{
 }
 .messi-img{
     width: 35vw;
+}
+.products-home{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-ingresos{
+    font-size: 30px;
+    margin: 20px  20px;
+}
+/* FOOTER */
+footer{
+    min-height: 10vh;
+    color: #fff;
+    background-color: rgb(15, 12, 12);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.googlemap{
+    margin: 10px;
 }
