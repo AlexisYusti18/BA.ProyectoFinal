@@ -65,9 +65,39 @@ a{
     justify-content: center;
     align-items: center;
 }
-.title-ingresos{
+.title-newproducts{
     font-size: 30px;
     margin: 20px  20px;
+}
+.newproducts-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px solid black;
+    margin: 10px;
+    height: 50vh;
+    width: 400px;
+}
+.card-img{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-newproducts{
+    width: 22rem;
+    height: 100%;
+}
+.card-body{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 /* FOOTER */
 footer{
