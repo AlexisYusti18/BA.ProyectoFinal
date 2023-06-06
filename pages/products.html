@@ -4,49 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JerseyShop</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <header>
         <div>
-            <a href="./index.html">
-                <img class="logo" src="./assets/logo.png" alt="balon">
+            <a href="../index.html">
+                <img class="logo" src="../assets/logo.png" alt="balon">
             </a>
         </div>
         <div>
             <nav>
                 <ul>
-                    <a href="#">Inicio</a>
+                    <a href="/index.html">Inicio</a>
                 </ul>
                 <ul>
-                    <a href="./pages/products.html">Productos</a>
+                    <a href="#">Productos</a>
                 </ul>
                 <ul>
-                    <a href="./pages/nosotros.html">Nosotros</a>
+                    <a href="./nosotros.html">Nosotros</a>
                 </ul>
             </nav>
         </div>
         <div>
-            <img class="heart" src="./assets/heart.png" alt="heart">
-            <img class="shopcart" src="./assets/shopcart.png" alt="shopcart">
+            <img class="heart" src="../assets/heart.png" alt="">
+            <img class="shopcart" src="../assets/shopcart.png" alt="">
         </div>
     </header>
     <main>
-        <div class="home-ctn">
-            <section>
-                <h1 class="title-home">SHOP ONLINE</h1>
-                <h2 class="subtitle-home">LAS CAMISETAS DE TUS EQUIPOS FAVORITOS EN UN SOLO LUGAR.</h2>
-            </section>
-            <section>
-                <img class="messi-img" src="./assets/messi.png" alt="">
-            </section>
-        </div>
-        <div class="products-home">
-            <h2 class="title-newproducts">NUEVOS INGRESOS💣🔥</h2>
-            <article class="newproducts-ctn" 
-                id="products-card">
-            </article>
+        <div class="products-ctn">
+            <div class="ctn-input">
+                <input type="search" placeholder="buscar...">
+            </div>
+            <div>
+                <div id="jerseys-products"></div>
+            </div>
         </div>
     </main>
     <footer>
@@ -72,7 +65,7 @@
             <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48385.972706226195!2d-74.10993040957858!3d40.71530223379416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2513eb04ef8ad%3A0x338f05fa330c20a0!2sMarshalls%20%26%20HomeGoods!5e0!3m2!1ses!2sar!4v1685594387764!5m2!1ses!2sar" width="400" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
-    <script src="./scripts/newproducts.js"></script>
-    <script src="./scripts/main.js"></script>
+    <script src="../scripts/newproducts.js"></script>
+    <script src="../scripts/products.js"></script>
 </body>
 </html>

@@ -112,3 +112,39 @@ footer{
 .googlemap{
     margin: 10px;
 }
+
+/* PRODUCTS PAGE */
+.products-ctn{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.ctn-input{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 300px;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+#jerseys-products{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.jerseys{
+    width: 400px;
+}
