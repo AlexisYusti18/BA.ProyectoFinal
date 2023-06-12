@@ -1,26 +1,41 @@
-let jerseys = document.getElementById('jerseys-products')
+const jerseys = document.getElementById('jerseys-products')
 const searchBar=document.getElementById('searchBar')
+let filterClubName= [];
 
+searchBar.addEventListener('input', (event) => {
+    filterClubName = event.target.value.toLowerCase();
+    showList();
+  });
 
-searchBar.addEventListener('keyup', (e)=>{
-    const serchString= e.target.value
-    const filterClubName=jerseysProduscts.filter((jersey)=>{
+const showList=()=>{
+    jerseys.innerHTML= '';
+    jerseysProducts.filter((item)=>{
+    
         return(
-            jersey.club.toLowerCase().includes(serchString)
-        )
-    })
-    displayJerseys(filterClubName)
-    // console.log(filterClub);
-})
-
-function displayJerseys(){
-    jerseysProduscts.map((shirt)=>{
-        jerseys.innerHTML+= `
-        <div>
-            <img class="jerseys" src=${shirt.img}><img/>
-        </div>`
+            item.club.toLowerCase().includes(filterClubName)
+            )
+    }).forEach((e)=>{
+        const img= document.createElement('img')
+        img.innerHTML= `<img class="jerseys" src=${e.img}><img/>`
+        jerseys.appendChild(img)
     })
 }
-displayJerseys() 
+showList()
+// searchBar.addEventListener('keyup', (e)=>{
+//     let arr= []
+//     const searchString= e.target.value
+//     const filterClubName= jerseysProducts.filter((jersey)=>(
+//         jersey.club.toLowerCase().includes(searchString)
+//         ))
+//     })
+
+
+//     jerseysProducts.map((shirt)=>{
+//         jerseys.innerHTML+= `
+//             <div>
+//                 <img class="jerseys" src=${shirt.img}><img/>
+//             </div>`
+//     })
+
 
 

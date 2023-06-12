@@ -1,4 +1,4 @@
-const jerseysProduscts = [
+const jerseysProducts = [
     {
         "id":0,
         "club":"Inter Miami",
