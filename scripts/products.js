@@ -19,8 +19,7 @@ function buscarElemento() {
       });      
     } else {
       resultadoHTML+= `
-          <h1>NO HAY CAMISETA<h1/>
-      `
+          <h1>La camiseta que estas buscando aun no esta disponible<h1/>`
     }
     document.getElementById("jerseys-products").innerHTML = resultadoHTML;
   }
