@@ -6,7 +6,7 @@ Website using HTML, CSS and JAVASCRIPT
 
 # Installation 💻
  - Open Visual Studio Code terminal
- - git clone https://github.com/AlexisYusti18/mytinerary-yusti.git
+ - git clone https://github.com/AlexisYusti18/BA.ProyectoFinal.git
  - cd PF.BAMULTIPLICA
  - Run Five Server
 
