@@ -1,5 +1,5 @@
 # [JERSEYSHOP](https://jerseysshop.netlify.app/) | 
-[![My-Tinerary-Google-Chrome-10-08-2022-15-21-34.png](https://i.postimg.cc/FzxrZHCS/My-Tinerary-Google-Chrome-10-08-2022-15-21-34.png)](https://jerseysshop.netlify.app/)
+[![https://i.postimg.cc/GhPTBYFy/image.png](https://i.postimg.cc/GhPTBYFy/image.png)](https://jerseysshop.netlify.app/)
 
 # Resume 📜
 Website using HTML, CSS and JAVASCRIPT
